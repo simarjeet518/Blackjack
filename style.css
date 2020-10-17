@@ -1,0 +1,81 @@
+.heading1{
+    
+    font-weight: bold;
+    text-align: center;
+    border:1px solid black;
+}
+.games {
+   align-content: center;
+   width:75%;
+   margin:0 auto;
+    border:1px solid black;
+
+}
+.btnss{
+    flex-wrap: wrap;
+    display:flex;
+    
+    padding:10px;
+    justify-content: space-around;
+    
+}
+.btnss div{
+    
+    padding: 10px;
+    align-items: center;
+}
+#container-2- {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.display-cats{
+    margin: 30px auto;
+    padding:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    border:1px solid black; 
+}
+#result{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border:1px solid black;
+    font-weight: bold;
+    }
+ #result h1{
+       
+        text-align: center;
+        padding:10px;
+        }
+  
+   .display-cats img{
+       margin: 10px ;
+       
+       box-shadow: 0 10px 15px rgba(1,1,1, 0.7);
+   }
+   .rockGame{
+       border: 1px solid black;
+   }
+   .images{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       padding:10px;
+       margin :15px auto;
+       justify-content: space-around;
+       
+   }
+   .images img{
+       
+       border-radius: 10px;
+       border: 1px solid gray;
+   }
+ 
+   
+   .images img:hover{
+       cursor: pointer;
+       box-shadow:0px 10px 15px 0px rgba(0,0,255,0.4);
+   }

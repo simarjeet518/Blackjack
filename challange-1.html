@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+</head>
+<body><div class="games">
+    <div class=containers>
+        <div class=heading1>
+            <h1>Enter Your Age in Days</h1>
+        </div>
+        <div class=btnss>
+     <div> <button class="btn btn-primary" onclick="checkAge()">Check Age</button></div>
+     <div><button class="btn btn-danger" onclick="reset()">Reset</button></div>
+        </div>
+        <div class="container-2-">
+        <div id="result"></div>
+        
+    </div>
+    
+    <div class=cat-container>
+        <div class="heading1"><h1>Cat Generator</h1></div>
+        <div class=btnss>
+          <div>  <button class="btn btn-success" onclick="catGenerate()">Cat Generator</button></div>
+        </div>
+    </div>
+    <div id="catss"  class="display-cats" >
+     
+    </div>
+    <div class="rockGame">
+        <div class="heading1"><h1>Rock Paper and  Scissors</h1></div>
+        <div class="images" id="Game">
+           <div id="leftside"><img src="https://st.depositphotos.com/1809585/1750/i/950/depositphotos_17505107-stock-photo-woman-hand-in-scissors-gesture.jpg" width=150 height=150 id="scissors" onclick="rpsGame(this)"></div>
+          <div id="centerside">  <img src="https://previews.123rf.com/images/unseenthings/unseenthings0809/unseenthings080900007/3517705-single-sheet-of-loose-leaf-paper.jpg" width="150" height="150" id="paper" onclick="rpsGame(this)"></div>
+            <div id="rightside"><img src="https://media.gettyimages.com/photos/limestone-picture-id170215830?s=612x612" width="150" height="150" id="rock" onclick="rpsGame(this)"></div>
+        </div>
+    </div>
+    </div>
+    <div>
+
+   <script src="script.js"></script> 
+</body>
+</html>
